@@ -19,6 +19,9 @@ void get_output(int a,int b,int c)
 }
 int main(int a,int b,int c)
 {
-  get_input(int a,int b);
-  
+  get_input(int a,int b,int*c);
+  add2nos(a,b,&c);
+  get_output(int a,int b,int c);
+return c;
+
 }
