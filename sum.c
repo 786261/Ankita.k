@@ -1,4 +1,4 @@
-hell0.c
+
 #include<stdio.h>
 void get_input(int*a,int*b)
 {
@@ -9,15 +9,16 @@ void get_input(int*a,int*b)
 }
 int add2nos(int a,int b)
 {
- int c;
- a+b=c; 
- return c;  
+   int c;
+   c = a+b; 
+   return c;  
 }
 void get_output(int a,int b,int c)
 {
-    printf("%d+%d=%d");
+    printf("%d = %d + %d");
 }
-int main()
+int main(int a,int b,int c)
 {
-
+  get_input(int a,int b);
+  
 }
